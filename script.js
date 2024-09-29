@@ -19,7 +19,7 @@ document.getElementById('rangeForm').addEventListener('submit', function(event) 
     allowedNumbers = [...allNumbers];
 
     // Vyloučená čísla
-    const excludedNumbers = [3, 4, 5, 6, 7, 8, 9];
+    const excludedNumbers = [1,2,10];
 
     // Filtrace vyloučených čísel z povolených čísel
     allowedNumbers = allowedNumbers.filter(num => !excludedNumbers.includes(num));
